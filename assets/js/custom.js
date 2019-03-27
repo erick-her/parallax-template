@@ -6,3 +6,6 @@ $('.dropdown-trigger').dropdown();
 
 // Call to sidenav function, materialize
 $('.sidenav').sidenav();
+
+// Call to scrollspy function, materialize
+$('.scrollspy').scrollSpy();
