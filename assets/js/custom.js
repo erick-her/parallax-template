@@ -9,3 +9,6 @@ $('.sidenav').sidenav();
 
 // Call to scrollspy function, materialize
 $('.scrollspy').scrollSpy();
+
+// Call to floatingActionButton function, materialize
+$('.fixed-action-btn').floatingActionButton();
