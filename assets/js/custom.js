@@ -12,3 +12,6 @@ $('.scrollspy').scrollSpy();
 
 // Call to floatingActionButton function, materialize
 $('.fixed-action-btn').floatingActionButton();
+
+// Call to modal function, materialize
+$('.modal').modal();
