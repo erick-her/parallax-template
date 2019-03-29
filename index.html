@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!--Materialize CSS-->
-  <link rel="stylesheet" href="assets/css/materialize.min.css">
-  <!--Materialize icons CSS-->
-  <link rel="stylesheet" href="assets/css/material-icons.css">
-  <!--Custom CSS-->
-  <link rel="stylesheet" href="assets/css/custom.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Font Awesome Icon library-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="assets/css/custom.css">
+
   <title>Parallax Template</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#about">About</a></li>
-            <li><a href="#!">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown">More<i class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
@@ -68,6 +69,38 @@
       </div>
       <div class="parallax"><img src="assets/img/guitar.jpg" alt="image"></div>
     </div>
+
+    <!--Contact-->
+    <section class="section scrollspy" id="contact">
+      <div class="row">
+        <div class="container">
+          <div class="col s12 l6">
+            <h3 class="deep-orange-text">Contact us</h3>
+            <blockquote class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos, esse? Officia ratione debitis omnis ad quaerat officiis, id voluptates perferendis maxime sit perspiciatis molestiae optio cupiditate.</blockquote>
+          </div>
+          <div class="col s10 offset-s1 l4 offset-l2">
+            <!--Contact form-->
+            <form>
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email" class="validate">
+                <label for="email">Email address</label>
+                <span class="helper-text" data-error="Email is invalid." data-success="Correct.">Helper text.</span>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">message</i>
+                <textarea id="message" class="materialize-textarea validate"></textarea>
+                <label for="message">Your message</label>
+              </div>
+              <p class="grey-text text-lighten-1 center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </form>
+            <div class="input-field">
+              <button class="btn btn-small waves-effect waves-light orange accent-4 right"><i class="material-icons right">send</i>Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
@@ -143,9 +176,9 @@
   </div>
 
   <!--Jquery-->
-  <script src="assets/js/jquery.min.js"></script>
-  <!--Materialize JS-->
-  <script src="assets/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <!--Custom JS-->
   <script src="assets/js/custom.js"></script>
 </body>

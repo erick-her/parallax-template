@@ -15,3 +15,23 @@
   transform: scale(1.2);
   transition: 1s;
 }
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #ff6d00;
+}
+
+/* label focus color */
+.input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  color: #ff6d00 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #ff6d00 !important;
+  box-shadow: 0 1px 0 0 #ff6d00 !important;
+}
+
+blockquote {
+  border-left-color: #ff6d00;
+}
